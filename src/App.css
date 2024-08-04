@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ #login {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: size 200px;
+    font-style: bold;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, rgb(4, 0, 255) , rgb(148, 8, 127));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+    
+
+
+#lblusername {
+    padding-left: 60px ;
+    padding-right: 10px;
+    text-align: left;
+} 
+
+
+#lblpass {
+  padding-left: 60px ;
+  padding-right: 10px;
+  text-align: left;
+} 
+.master-container{
+  background-image: url("assets/bglogin6.jpg");
+  height: 100vh;
+  display: flex; /* Use Flexbox to center child elements */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.main-container {
+
+  width: 30%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(216, 227, 228);
+  opacity: 0.5;
+  border-radius: 5%;
+   
+   /* */
+  }
+  .fname{
+    padding-top: 10px;
+
+  }
+  .formLogin {
+    align-items: center;
+  }
+  .btnLogin {
+    /* padding: 10px 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(78, 16, 247); */
+    background-image: linear-gradient(to right, rgb(4, 0, 255) , rgb(255, 0, 221));
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150%;
+   color: beige;
+}
+
+.error-msg {
+    color: red;
+    padding: 60px;
+    font-size: smaller;
+}
+
+.class-login{
+  /* padding: 5px 100px; */
+  /* padding-top: 5px;
+padding-right: 285px;
+padding-bottom: 5px;
+padding-left: 98px; */
+padding-left: 20%;
+width: 40%;
+padding-bottom: 10%;
+}
+
+#welcome-heading{
+
+text-align: center;
+color: rgb(88, 24, 35);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font: size 200px;
+}
+
+.home-Container {
+  height: 100vh;
+  width: 100vw ;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-image: url("assets/background-2462434_1280.jpg");
+}
+
+
+input {
+height: 20px;
+  width: 60%;
+  border-radius: 10px;
+}
+
+#login-body { 
+  background-image: url("assets/bglogin6.jpg");
+  
+}
+.usericon{
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.lockicon{
+  margin-right: 10px;
+  margin-left: 50px;
+}
